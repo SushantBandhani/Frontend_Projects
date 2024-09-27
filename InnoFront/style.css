@@ -60,7 +60,7 @@ body{
     gap:1.5rem;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:850px) {
     .nav{
         display:flex;
     }
@@ -88,7 +88,7 @@ body{
     font-size: 1rem;
     font-weight: 600;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:850px) {
     .contact-button{
         display:block;
     }
@@ -108,7 +108,7 @@ background-color:var(--background-color);
 padding:0.5rem 0.9rem;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:850px){
     .menu-button{
         display:block;
     }
@@ -588,4 +588,131 @@ font-size: 1rem;
         font-size:2.5rem;
     }
 
+}
+
+.footer-container{
+    background-color: var(--background-color);
+    margin:0 auto;
+    padding:0 2rem;
+    display:flex;
+    flex-direction: column;
+    max-width:1280px;
+}
+
+.footer{
+    max-width:1280px;
+    padding:1rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-right:2rem;
+}
+
+.footer-top{
+    width:34%;
+    display:flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+
+.logo-svg{
+    width:2rem;
+    height:6rem;
+}
+
+.social-icon{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.logo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.28rem;
+    font-weight: bold;
+    color: black;
+}
+
+.comp-logo{
+    display:flex;
+    justify-content:flex-start ;
+    margin-bottom:-1.9rem; /* eliminate extra space below an element by moving the margin in the opposite direction (upwards)*/
+}
+
+.filler-text{
+    font-size: 1rem;
+    color:#777;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 58%;
+    grid-gap: 5.67rem;
+    padding-top: 2rem;
+    /* padding:2rem 0.4rem; */
+}
+
+.footer-grid-heading{
+    font-size:1.05rem;
+    font-weight:bold;
+    color:var(--text-color);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-link{
+    color:#777;
+    font-size: 0.875rem;
+}
+
+.footer-links-list{
+ display:flex;
+ flex-direction: column;
+ gap:1.2rem;
+}
+
+.footer-grid-heading{
+    margin-bottom:1.65rem;
+}
+
+.social{
+    display:flex;
+    gap:0.8rem;
+}
+
+.footer-copyright{
+    color: var(--gray);
+    font-size: 0.75rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 1.15rem;
+    border-top: 1px solid #E5E7EB;
+}
+
+@media screen and (max-width:1080px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top{
+        padding-left: 10rem;
+    }
+    .footer-grid{
+        align-self: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .footer-top{
+        padding-left: 1rem;
+    }
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
