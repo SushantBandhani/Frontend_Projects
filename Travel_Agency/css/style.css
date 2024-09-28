@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+}
+
+html{
+    font-size:62.5%;
+}
+
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.7;
+}
+ul li{
+    list-style:none;
+}
+a{
+    font-size:1.6rem;
+    text-decoration:none;
+}
+
+p,li{
+    font-size:1.6rem;
+    margin-bottom:0.5em;
+    letter-spacing:0.15em;
+}
+h1, h2, h3{
+    margin-bottom:0.5em;
+    letter-spacing:0.15em;
+    font-weight:500;
+}
+
+
+/* Utility Classes */
+.lg-heading{
+    font-size:3.5rem;
+}
+.md-heading{
+    font-size:2.2rem;
+}
+.text-red{
+    color:#e63946;
+}
+.text-light{
+    color:#f4f4f4;
+}
+.text-black{
+    color:#333;
+}
+.text-grey{
+    color:#555;
+}
+.bg-dark{
+    background:#263238;
+}
+
+
+.btn{
+    display:inline-block; /*because <a> is inline thats why we gave display as inline-block*/
+    padding:0.5em 1.5em;
+    font-weight:500;
+    text-transform:uppercase;
+    margin:0.5em;
+}
+.btn-primary{
+    background-color:#fff;
+    border-radius:10em;
+}
+.btn-primary:hover{
+    background-color:#ddd;
+}
+.btn-secondary{
+    border:2px solid #e63946;
+    border-radius:1.5em;
+    color:#e63946;
+    background-color:#fff;
+}
+.btn-secondary:hover{
+    background-color:#fcf3f2;
+}
+
+.header{
+    height:95vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/night city.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+}
+
+
+.navbar{
+    /* border:2px solid white; */
+    padding:1rem;
+}
+
+.header .navbar .logo{
+    float:left;
+    font-size:3.5rem;
+}
+.header .navbar .nav-items{
+    float:right;
+    margin-top:1rem;
+}
+
+.navbar::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.header .navbar .nav-item{
+    display: inline-block;
+    padding:1rem;
+    text-transform:uppercase;
+} 
+
+.navbar a:link, .navbar a:visited{
+    color:#f4f4f4;
+}
+
+.navbar a:hover{
+    border-bottom:1px solid #fff;
+}
+
+.navbar a{
+    padding-bottom:0.3rem;
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-content h1{
+    text-transform: uppercase;
+}
+
+.header-content{
+    /* border:1px solid white; */
+    position:absolute;             /*Setting its position with respect to header*/
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+
+.showcase{
+    background:#ddd;
+    padding:10rem 0;
+}
+
+.row{
+    height:350px;
+    /* border:2px solid red; */
+    background:#fff;
+    box-shadow:0px 0px 20px 0 rgba(24, 23, 23, 0.137);
+}
+.row1{
+    margin-bottom:10rem;
+}
+.row1 .img-box, .row2 .text-box{
+    float:left;
+    width:50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float:right;
+    width:50%;
+}
+.row .img-box{
+    height:100%;
+}
+.row .text-box{
+    /* border:2px solid purple; */
+    padding:3rem;
+}
+.row .img-box img{
+    width:100%;
+    display:inline-block;
+    height:100%;
+    object-fit:cover;
+}
+
+.row:after{
+    content:"";
+    clear:both;
+    display:block;
+}
