@@ -300,129 +300,200 @@ h3 {
   font-size: 1.8rem;
 }
 
-.cta-banner{
-    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
-    color:#f4f4f4;
-    padding:1rem;
-    box-shadow:5px 5px 1px #00000057;
-    margin-top:3rem;
+.cta-banner {
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 5px 5px 1px #00000057;
+  margin-top: 3rem;
 }
-.cta-banner-left{
-    width:60%;
-    float:left;
+.cta-banner-left {
+  width: 60%;
+  float: left;
 }
-.cta-banner-right{
-    width:40%;
-    float:right;
-    text-align:right;
-}
-
-.cta-banner::after{
-    content:"";
-    display:block;
-    clear:both;
+.cta-banner-right {
+  width: 40%;
+  float: right;
+  text-align: right;
 }
 
-.cta-line{
-    font-weight:700;
-    font-size:2rem;
-    margin-top:1.5rem;
-}
-.btn-cta{
-    text-align:center;
-    display:inline-block;
-    font-weight:700;
-    font-size:3rem;
-    text-transform:uppercase;
-    border:4px solid white;
-    padding:0.3em 2.5em;
-    letter-spacing:0.5rem;
-    color:#f4f4f4;
+.cta-banner::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.contact-form{
-    padding:5rem;
-    background:#f7f7f7;
+.cta-line {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+.btn-cta {
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  border: 4px solid white;
+  padding: 0.3em 2.5em;
+  letter-spacing: 0.5rem;
+  color: #f4f4f4;
 }
 
-.form-wrapper .company-address{
-    background: #fff;
-    width:49%;
-    float:left;
-    height: 760px;
+.contact-form {
+  padding: 5rem;
+  background: #f7f7f7;
 }
 
-.form-wrapper .form{
-    background: #fff;
-    width:49%;
-    float:right;
-    font-size:1.6rem;
-    padding:1rem;
-    height:760px;
+.form-wrapper .company-address {
+  background: #fff;
+  width: 49%;
+  float: left;
+  height: 760px;
 }
 
-.form-wrapper::after{
-    content:"";
-    display:block;
-    clear:both;
+.form-wrapper .form {
+  background: #fff;
+  width: 49%;
+  float: right;
+  font-size: 1.6rem;
+  padding: 1rem;
+  height: 760px;
 }
 
-.form-wrapper .company-address i{
-    display:inline-block;
-    margin-right:1rem;
-}
-.form-wrapper .company-address h2{
-    display:inline-block;
-    text-transform:uppercase;
-}
-.form-wrapper .address-group{
-margin-bottom:3rem;
+.form-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.form-wrapper .company-address img{
-    /* max-width:90%; */
-    width:100%;
-    /* min-height:40rem; */
-    height:58.115%;
-    object-fit:cover;
-    object-position:right;
+.form-wrapper .company-address i {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.form-wrapper .company-address h2 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.form-wrapper .address-group {
+  margin-bottom: 3rem;
 }
 
-.form h1{
-    border-bottom:3px solid #e63946;
-    display:block;
-    width:100%;
+.form-wrapper .company-address img {
+  /* max-width:90%; */
+  width: 100%;
+  /* min-height:40rem; */
+  height: 58.115%;
+  object-fit: cover;
+  object-position: right;
 }
 
-.form-wrapper .form label{
-    display:block;
-}
-.form-wrapper .form input{
-    padding:0.5rem;
-    width:100%;
+.form h1 {
+  border-bottom: 3px solid #e63946;
+  display: block;
+  width: 100%;
 }
 
-.form-wrapper .form .form-group{
-    margin-bottom:1.2rem;
+.form-wrapper .form label {
+  display: block;
 }
-.form-wrapper .form label::after{
-    content:"*";
-    color:#e63946;
+.form-wrapper .form input {
+  padding: 0.5rem;
+  width: 100%;
 }
-.form-wrapper .form textarea{
-    width:100%;
-    height:300px;
-    padding:1rem;
+
+.form-wrapper .form .form-group {
+  margin-bottom: 1.2rem;
 }
-.form-btn{
-    display:block;
-    margin:0 auto;
-    padding:0.5em 3em;
-    font-size:1.8rem;
-    text-transform:uppercase;
-    background:#e63946;
-    color:#fff;
-    outline:none;
-    border:none;
-    cursor:pointer;
+.form-wrapper .form label::after {
+  content: "*";
+  color: #e63946;
+}
+.form-wrapper .form textarea {
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+}
+.form-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 3em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background: #e63946;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries*/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar .nav-items,
+  .navbar .logo {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,
+  .row .text-box {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.432);
+  }
+  .features .box-2,
+  .features .box-3 {
+    margin-top: 7rem;
+  }
+  .box-wrapper {
+    box-shadow: none;
+  }
+  .cta-banner-left,
+  .cta-banner-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .form-wrapper .company-address {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .form-wrapper .form {
+    float: none;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  .row .text-box h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
 }
