@@ -470,6 +470,8 @@ h3 {
     width: 100%;
     text-align: center;
   }
+
+
   .form-wrapper .company-address {
     float: none;
     width: 100%;
@@ -480,6 +482,10 @@ h3 {
     float: none;
     height: auto;
     width: 100%;
+    text-align: center;
+  }
+  .lg-heading {
+    font-size: 2.5rem;
   }
 }
 
@@ -490,6 +496,10 @@ h3 {
   .row .text-box h2 {
     font-size: 2.2rem;
     font-weight: 500;
+  }
+  .btn-cta{
+    padding:0.3em 0.8em;
+    letter-spacing: 0.4rem;
   }
 }
 @media (orientation: landscape) and (max-height: 500px) {
