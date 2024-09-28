@@ -14,7 +14,8 @@ Each project is designed to demonstrate key concepts and techniques in frontend 
 
 ## Projects Included
 
-- **Project 1**: InnoFront
+- **Project 1**: InnoFront Site
+- **Project 2**: Travel Agency Site 
 
 ## Getting Started
 
