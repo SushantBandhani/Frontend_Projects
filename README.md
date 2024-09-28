@@ -19,4 +19,5 @@ Each project is designed to demonstrate key concepts and techniques in frontend 
 
 - ## Live Demo
 You can view the live project InnoFront deployed on Netlify: https://spectacular-macaron-b78b92.netlify.app/
+You can view the live project InnoFront deployed on Netlify: https://illustrious-biscotti-46894d.netlify.app/
 
