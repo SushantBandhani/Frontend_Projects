@@ -700,7 +700,12 @@ ul{
         align-items: center;
     }
     .footer-top{
-        padding-left: 10rem;
+        width:100%;
+        margin:0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
     }
     .footer-grid{
         align-self: center;
