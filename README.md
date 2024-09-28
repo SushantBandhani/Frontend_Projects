@@ -14,8 +14,9 @@ Each project is designed to demonstrate key concepts and techniques in frontend 
 
 ## Projects Included
 
-- **Project 1**: InnoFront
+- **Project 1**: InnoFront Site
+- **Project 2**: Travel Agency Site
 
-## Getting Started
+- ## Live Demo
+You can view the live project InnoFront deployed on Netlify: https://66f83006a708be0c2f520ed4--kaleidoscopic-beignet-b6f048.netlify.app/
 
-To view the projects, simply clone this repository and open the HTML files in your web browser.
