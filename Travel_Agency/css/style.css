@@ -200,3 +200,43 @@ h1, h2, h3{
     clear:both;
     display:block;
 }
+
+.features{
+    padding:10rem 0;
+}
+
+.box-wrapper{
+    /* border:2px solid green; */
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.432);
+    
+}
+.box{
+    width:33.33333333%;
+    float:left;
+    /* border:2px solid black; */
+    padding:2rem;
+    text-align: center;
+}
+.box-1, .box-3{
+    background-color: #333;
+    color:white;
+}
+.box-2{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color:white;
+}
+.box-wrapper::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.footer{
+    background:#263238;
+    color:#f4f4f4;
+    padding:2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin:2rem;
+}
