@@ -307,3 +307,51 @@ body{
     color:#117964;
     font-weight:700;
 }
+
+#testimonals{
+    padding:5rem 0rem;
+    background:rgb(243,243,243);
+}
+
+.testimonal-title
+{
+    text-align:center;
+    font-size:3rem;
+    font-weight:400;
+    color:#555;
+}
+
+.testimonal-container{
+    display:flex;
+    justify-content:space-between;
+    padding:1rem;
+    font-size:1.6rem;
+}
+
+.testimonal-container .checked{
+    color:#ff9529;
+}
+.testimonal-box .testimonal-text{
+    margin:1rem;
+    color:#444;
+}
+
+.testimonal-box{
+    text-align:center;
+    padding:1rem;
+}
+
+.customer-photo img{
+    display:block;
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    object-position:center;
+    border-radius:50%;
+    margin:auto;
+}
+
+/* .customer-detail{
+    display:flex;
+    flex-direction: column;
+} */
