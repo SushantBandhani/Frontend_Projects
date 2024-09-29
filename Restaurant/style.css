@@ -14,13 +14,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* utility classes */
 .container{
     max-width:1200px;
     width:90%;
     margin:auto;
-    /* border:2px solid red; */
 }
 
 .btn{
@@ -57,7 +54,6 @@ body{
     background:#fff;
     opacity:0.95;
     z-index:10;
-    /* border:2px solid red; */
 
 }
 
@@ -66,7 +62,6 @@ body{
     justify-content:space-between;
     height:64px;
     align-items:center;
-    /* border:2px solid green; */
 }
 
 .menu-items{
@@ -125,7 +120,6 @@ body{
 .about-wrapper{
     display:flex;
     flex-wrap:wrap;
-    /* border:2px solid blue; */
 }
 #about h2{
     font-size:3.2rem;
@@ -143,7 +137,6 @@ body{
 .about-img{
     flex:1 1 400px;
     padding:30px;
-    /* border:2px solid green; */
     transform:translateX(150%);
     animation:about-img-animation 1.6s ease-in-out forwards;
 }
@@ -438,7 +431,6 @@ body{
         display:block;
         position:relative;
         height:64px;
-        /* border:2px solid red; */
     }
 
     .navbar-container input[type="checkbox"]{
@@ -463,8 +455,6 @@ body{
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        /* padding:2px; */
-        /* border:2px solid red; */
     }
 
     .navbar-container .hamburger-lines .line{
