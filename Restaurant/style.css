@@ -409,3 +409,16 @@ body{
 .form-container a{
     font-size:1.2rem;
 }
+
+#footer {
+    margin-top: 2rem; /* Adds margin above the footer */
+}
+
+#footer h2{
+    text-align:center;
+    font-size:2rem;
+    padding:2rem;
+    font-weight:500;
+    color:#fff;
+    background:rgb(65,65,65);
+}
