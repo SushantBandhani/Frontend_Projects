@@ -16,8 +16,10 @@ Each project is designed to demonstrate key concepts and techniques in frontend 
 
 - **Project 1**: InnoFront Site
 - **Project 2**: Travel Agency Site
+- **Project 3**: Restaurant Site
 
 - ## Live Demo
 - You can view the live project InnoFront deployed on Netlify: https://spectacular-macaron-b78b92.netlify.app/
 - You can view the live project Travel Agency deployed on Netlify: https://illustrious-biscotti-46894d.netlify.app/
+- You can view the live project Restaurant Site deployed on Netlify: https://endearing-lily-f4f403.netlify.app/
 
