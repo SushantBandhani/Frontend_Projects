@@ -267,6 +267,7 @@ body{
     text-align:center;
     font-weight:400;
     color:#666;
+    margin-bottom:3rem;
 }
 .food-menu-container{
     display:flex; 
@@ -421,4 +422,159 @@ body{
     font-weight:500;
     color:#fff;
     background:rgb(65,65,65);
+}
+
+@media (max-width:768px){
+    .navbar{
+        opacity:0.95;
+    }
+
+    .navbar-container input[type='checkbox'],
+    .navbar-container .hamburger-lines{
+        display:block;
+    }
+
+    .navbar-container{
+        display:block;
+        position:relative;
+        height:64px;
+        /* border:2px solid red; */
+    }
+
+    .navbar-container input[type="checkbox"]{
+        position:absolute;
+        display:block;
+        height:32px;
+        width:40px;
+        top:20px;
+        left:20px;
+        z-index:5;
+        opacity:0;
+    }
+
+    .navbar-container .hamburger-lines{
+        display:block;
+        height:32px;
+        width:40px;
+        position:absolute;
+        top:20px;
+        left:20px;
+        z-index:2;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        /* padding:2px; */
+        /* border:2px solid red; */
+    }
+
+    .navbar-container .hamburger-lines .line{
+        display:block;
+        height:4px;
+        width:100%;
+        border-radius:10px;
+        background:#333;
+    }
+
+    .navbar-container .hamburger-lines .line1{
+    transform-origin:0% 0%;
+    transition:transform 0.4s ease-in-out;
+    }
+    .navbar-container .hamburger-lines .line2{
+    transition:transform 0.4s ease-in-out;
+    } 
+    .navbar-container .hamburger-lines .line3{
+    transform-origin:0% 100%;
+    transition:transform 0.4s ease-in-out;
+    }
+
+    .navbar .menu-items{
+        padding-top:100px;
+        background:#fff;
+        height:100vh;
+        max-width:300px;
+        transform:translateX(-150%);
+        display:flex;
+        flex-direction:column;
+        margin-left:-40px;
+        padding-left:50px;
+        transition:transform 0.5s ease-in-out;
+        box-shadow: 5px 0px 10px 0px #aaa;
+    }
+
+    .navbar .menu-items li{
+        margin-bottom:3rem;
+        font-size:2rem;
+        font-weight:500;
+    }
+
+    .logo{
+        position:absolute;
+        top:10px;
+        right:15px;
+        font-size:3rem;
+    }
+    .navbar-container input[type='checkbox']:checked ~ .menu-items{
+        transform:translateX(0);
+    }
+
+    .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line1{
+        transform:rotate(45deg);
+    }
+    .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line2{
+        transform:scaleY(0);
+         /* display:none; */
+    }
+    .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line3{
+    transform:rotate(-45deg);
+    }
+
+    .food-container{
+        flex-direction: column;
+        align-items:stretch;
+    }
+    .food-type:not(:last-child){
+        margin-bottom:3rem;
+    }   
+    .food-type{
+        box-shadow:5px 5px 10px 0px #aaa;
+    }
+    .img-container{
+        margin:0;
+    }
+
+}
+
+@media(max-width:500px){
+    html{
+        font-size:50%;
+    }
+    
+    .testimonal-container{
+        flex-direction:column;
+        text-align:center;
+    }
+    .food-menu-items{
+        flex-direction:column;
+        text-align:center;
+    }
+    .food-menu-container img{
+        margin:auto;
+    }
+    .form-container{
+        width:90%;
+    }
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .contact-image{
+        width:90%;
+        margin:3rem auto;
+    }
+}
+
+@media(orientation:landscape)and (max-height:500px){
+    .showcase-area{
+        height:50vmax;
+    }
 }
