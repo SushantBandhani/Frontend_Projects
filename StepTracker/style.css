@@ -140,3 +140,29 @@ button.navbar-button {
 .navbar-button:hover {
     opacity: 0.9;
 }
+
+@media (max-width: 768px) {
+
+  .navbar {
+    height: auto;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .navbar-controls {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar-select,
+  .navbar-button {
+    width: 100%;
+  }
+
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+}

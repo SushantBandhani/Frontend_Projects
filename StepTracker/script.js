@@ -11,7 +11,7 @@ const tasks_steps = [
     status: "pending",
     completed_at: null,
     image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&q=80&auto=format",
   },
   {
     step_number: 1,
@@ -20,7 +20,7 @@ const tasks_steps = [
     status: "completed",
     completed_at: "2024-01-15 10:30 AM",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&q=80&auto=format",
   },
   {
     step_number: 4,
@@ -29,7 +29,7 @@ const tasks_steps = [
     status: "pending",
     completed_at: null,
     image:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85",
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=500&q=80&auto=format",
   },
   {
     step_number: 2,
@@ -38,7 +38,7 @@ const tasks_steps = [
     status: "completed",
     completed_at: "2024-01-15 10:45 AM",
     image:
-      "https://images.unsplash.com/photo-1521791136064-7986c2920216",
+      "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=500&q=80&auto=format",
   },
   {
     step_number: 3,
@@ -47,7 +47,7 @@ const tasks_steps = [
     status: "pending",
     completed_at: null,
     image:
-      "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
+      "https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=500&q=80&auto=format",
   },
 ];
 
